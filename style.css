@@ -4,41 +4,43 @@ body {
     background: #ffffff;
     font-family: Helvetica, Arial, sans-serif;
   }
+
+img {
+    width: 6%;
+}
   /*------------------------------------------------------------ Name at Top */
   .coloredCenter {
     font-size: 50px; 
     width: 25%;
-    /* border: 1px solid black; */
-    margin: auto;
-    padding: 0;
-    top: 15px;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 0px;
     text-align: center; 
-    /* background-color: #FF7F50; */
+    background-color: #FFD769;
   }
 
   .nonColoredCenter {
     position: relative;
-    margin: auto;
+    margin: 50px auto;
     text-align: center; 
     width: 50%;
-    top: 100px;
+    top: 60px;
+    font-size: 30px;
   }
 
   /*------------------------------------------------------------ NAVBAR */
-  .navbar {
-    
-  }
   .nav-link,
   .navbar-brand {
     color: black;
     cursor: pointer;
   }
-  .nav-link {
-    margin-right: 1em !important;
-  }
   .nav-link:hover {
     color: Black;
   }
+  .nav-link {
+    width: 100px;
+    text-align: center; 
+  }
   .navbar-collapse {
-    justify-content: flex-end;
+    justify-content: center;
   }  
