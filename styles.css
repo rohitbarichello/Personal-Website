@@ -1,0 +1,32 @@
+* {
+  font-family: Arial;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.under-maintanance {
+  color: grey;
+}
+
+.header {
+
+}
+
+.navbar-container {
+
+}
+
+.intro-paragraph {
+  
+}
+
+.social-links-container {
+
+}
