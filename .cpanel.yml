@@ -6,4 +6,4 @@ deployment:
     - /bin/cp styles.css $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R src $DEPLOYPATH
-    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R fonts\avenir-next $DEPLOYPATH
