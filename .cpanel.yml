@@ -4,5 +4,6 @@ deployment:
     - export DEPLOYPATH=/home/rohipoji/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp styles.css $DEPLOYPATH
+    - /bin/cp Rohit_Barichello_Resume.pdf $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R fonts\avenir-next $DEPLOYPATH
